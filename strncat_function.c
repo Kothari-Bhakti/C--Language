@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <string.h>
+
+void main()
+{
+    char a[]= "computer";
+    char b[]="science";
+
+    printf(strncat(a,b,3));
+     
+}
